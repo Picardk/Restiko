@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Client</title>
+
+  <link rel="stylesheet" href="./assets/css/css-bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style/style.css">
+
+</head>
+
+<body>
+
+  <header class="headerNav">
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 imgRestiko">
+        </div>
+    </div>
+</div>
+<form id="formEnter">
+  <div class="form-group">
+    <label class="text-white" for="email">Adresse Mail</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+      placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+  <div class="form-group">
+    <label class="text-white" for="password">Mot de passe</label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+  <div class="text-center">
+    <div class="btn btnPurple" onclick="formRestiko(), recupInfoRestiko()">Se connecter</div>
+  </div>
+</form>
+</div>
+<div id="mainContent">
+</div>
+</div>
+
+  <!-- script pre-load -->
+  <!-- ceci est un commentaire pour push le code de kaven -->
+<div></div>
+    <script src="./assets/js/script-base/airtable.browser.js"></script>
+    <script src="./assets/js/script-base/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/script-base/bootstrap.min.js"></script>
+    <script src="./assets/js/script-base/popper.min.js"></script>
+    <script src="./assets/js/script-fonctionnel/recupe.js"></script>
+    <script src="./assets/js/script-fonctionnel/template.js"></script>
+    <script src="./assets/js/script-fonctionnel/Restiko.js"></script>
+    <script src="./assets/js/script-fonctionnel/main.js"></script>
+    <script src="./assets/js/script-fonctionnel/check.js"></script>
+</body>
+
+</html>
